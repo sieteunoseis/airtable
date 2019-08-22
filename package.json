@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/sieteunoseis/node-airtable/issues"
   },
-  "homepage": "https://github.com/sieteunoseis/node-airtable#readme"
+  "homepage": "https://github.com/sieteunoseis/node-airtable#readme",
+  "dependencies": {
+    "airtable": "^0.7.1"
+  }
 }
