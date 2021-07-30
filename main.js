@@ -10,7 +10,10 @@ module.exports = (atapikey, atbaseid, attablename, atviewname) => {
 				view: atviewname
 			}).eachPage(function page(records, fetchNextPage) {
 				// This function (`page`) will get called for each page of records.
-				totalrecords.push(records);
+				records.forEach(function(record) {
+					totalrecords.push(record.fields);
+				});
+				
 				fetchNextPage();
 
 			}, function done(err) {

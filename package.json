@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/sieteunoseis/node-airtable#readme",
   "dependencies": {
-    "airtable": "^0.8.1"
+    "airtable": "^0.11.1"
   }
 }
